@@ -14,7 +14,7 @@ Implemented a simple *Twitter client* as a single web page application, which st
 
 ### Technologies used
 
-ReactJS, NodeJS with Express, HTML5, CSS3, JavaScript
+ReactJS, NodeJS, Express, HTML5, CSS3, JavaScript
 
 ### Notes
 - Successfully implemented server-side and client-side connection.
