@@ -1,0 +1,145 @@
+.tweet_newsfeed_container {
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    width: 650px;
+    float: right;
+    /* overflow: hidden;*/
+}
+
+.tweet_newsfeed_header {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+    background-color: #151E29;
+    color: white;
+    width: 637px;
+    text-align: left;
+    height: 22px;
+    padding: 12px 1px 12px 12px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.tweets_searchbar {
+    align-items: right;
+    position: relative;
+    right: 0%;
+    bottom: 2%;
+    /* border-color: white; */
+    padding-right: 10px;
+    /* border-radius: 1px; */
+}
+
+.tweet_searchbar button {
+    float: right;
+    width: 20%;
+    font-size: 17px;
+    color: black;
+
+}
+
+.tweet_newsfeed_header h2 {
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+
+.tweet_newsfeed_stream {
+    background-color: white;
+    width: 590px;
+    height: 100%;
+
+}
+
+.tweet_newsfeed_stream_rows_wrapper {
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.tweet_newsfeed_stream_rows {
+    /*    background-color: lightgrey;*/
+    border-radius: 4px;
+    width: 570px;
+    height: 77px;
+    margin: 10px 10px 10px 10px;
+
+    /* padding-top: 5px;*/
+}
+
+.icon {
+    border-color: green;
+    float: left;
+    width: 10%;
+    height: 77px;
+}
+
+.information {
+    border-color: red;
+    float: right;
+    width: 90%;
+    height: 77px;
+}
+
+.information div {
+    margin-bottom: 4px;
+}
+
+.top_row {
+    text-align: left;
+}
+
+
+.top_row h4 {
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline;
+}
+
+.top_row h3 {
+    color: grey;
+    display: inline;
+    margin-left: 2px;
+    font-size: 13px;
+}
+
+
+.second_row h3 {
+    color: black;
+    line-height: 16px;
+}
+
+.third_row {
+    height: 22px;
+}
+
+.third_row .expand_action_left {
+    margin-top: 5px;
+    width: 50%;
+    float: left;
+}
+
+.third_row h5 {
+    font-size: 10px;
+    color: grey;
+}
+
+.third_row .expand_action_right {
+    width: 50%;
+    float: right;
+}
+
+.third_row .expand_action_right ul {
+    display: inline;
+}
+
+.third_row .expand_action_right li {
+    font-size: 10px;
+    color: grey;
+}
+
+.egg_img {
+    width: 49px;
+    height: 49px;
+    border-radius: 3px;
+}
